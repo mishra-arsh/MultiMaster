@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "319065000401",
+    "project_id": "authproject-61abb",
+    "storage_bucket": "authproject-61abb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:319065000401:android:57868e633991bebc9038f0",
+        "android_client_info": {
+          "package_name": "com.example.webview"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANdfcy_f_TNUt-LnBW0yoZ7ruK4kbOtcs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/p6"
+    tools:context=".signinonlineemail">
+
+    <Button
+        android:id="@+id/button29"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="45dp"
+        android:background="#E44944A7"
+        android:text="Back"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/button30"
+        android:layout_width="155dp"
+        android:layout_height="38dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="131dp"
+        android:layout_marginBottom="60dp"
+        android:background="#E44944A7"
+        android:text="Login"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/editTextText10"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="346dp"
+        android:background="#BA5752AA"
+        android:ems="10"
+        android:hint="Enter your email"
+        android:inputType="text"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/editTextText11"
+        android:layout_width="415dp"
+        android:layout_height="59dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-4dp"
+        android:layout_marginBottom="417dp"
+        android:background="#BA5752AA"
+        android:ems="10"
+        android:hint="Enter your password"
+        android:inputType="text"
+        android:textColor="#000000" />
+
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="172dp"
+        android:layout_marginBottom="205dp" />
+</RelativeLayout>
